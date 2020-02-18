@@ -38,6 +38,17 @@ end
 def reduce_to_all_true(source_array)
   index = 0
   while index < source_array.length do
-    if source_array[index]
+    if source_array[index] != true
+      false
+    end
+    index += 1
+  end
+  if index >= source_array.length
+    true
+  end
+end
+
+      
+      
       
   
