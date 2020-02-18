@@ -38,5 +38,6 @@ end
 def reduce_to_all_true(source_array)
   index = 0
   while index < source_array.length do
-    if sour
+    if source_array[index]
+      
   
