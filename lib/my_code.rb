@@ -56,7 +56,7 @@ def reduce_to_any_true(source_array)
     index += 1
   end
   if index >= source_array.length
-    true
+    false
   end
 end
 
